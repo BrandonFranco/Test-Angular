@@ -1,18 +1,22 @@
-nav{
-    top: 0;
-    background: rgb(175, 175, 175);
-    width: 100%;
-    .container-header{
-        display: flex;
-        a{
-            padding: 1rem;
-            text-decoration: none;
-            color: black;
-            &.active{
-                background-color: whitesmoke;
-            }
-            &:hover{
-                background: white;
+header{
+    display: flex;
+    justify-content: space-between;
+    nav{
+        top: 0;
+        background: rgb(175, 175, 175);
+        width: 100%;
+        .container-header{
+            display: flex;
+            a{
+                padding: 1rem;
+                text-decoration: none;
+                color: black;
+                &.active{
+                    background-color: whitesmoke;
+                }
+                &:hover{
+                    background: white;
+                }
             }
         }
     }
