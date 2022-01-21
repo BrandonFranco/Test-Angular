@@ -1,0 +1,8 @@
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: chocolate;
+    font-size: 25px;
+    font-weight: 900;
+}
