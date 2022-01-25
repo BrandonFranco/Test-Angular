@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    max-width: 100%;
+    .categories-container{
+        padding-left: 5%;
+        .categories{
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            button{
+                text-align: left;
+                border: 1px solid #E9ECEF;
+                background: transparent;
+                color: #3B5875;
+                cursor: pointer;
+                font-size: 14px;
+                padding: 8px 36px 8px 8px;
+                text-decoration: none;
+                margin-bottom: 8px;
+                width: 200px;
+                &:hover{
+                    background: #3B5875;
+                    color: white;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+    .app-manufactura{
+        width: 54%;
+    }
+}

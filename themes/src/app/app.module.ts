@@ -14,6 +14,15 @@ import { AppRoutingModule } from './app.routing.module'
 import { ProductListComponent } from './components/product.list/product.list.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { PostTopComponent } from './components/post-top/post-top.component';
+import { CategoriesComponent } from './components/categories/categories.component';
+import { ManufacturaComponent } from './categories-list/manufactura/manufactura.component';
+import { MaterialesComponent } from './categories-list/materiales/materiales.component';
+import { MercadeoComponent } from './categories-list/mercadeo/mercadeo.component';
+import { RoboticaComponent } from './categories-list/robotica/robotica.component';
+import { SeguridadComponent } from './categories-list/seguridad/seguridad.component';
+import { SostenibilidadComponent } from './categories-list/sostenibilidad/sostenibilidad.component';
+import { TecnologiaComponent } from './categories-list/tecnologia/tecnologia.component';
+import { ArticulosComponent } from './components/articulos/articulos.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +35,17 @@ import { PostTopComponent } from './components/post-top/post-top.component';
     EdicionesComponent,
     ProductListComponent,
     RedesComponent,
-    PostTopComponent
+    PostTopComponent,
+    CategoriesComponent,
+    ManufacturaComponent,
+    MaterialesComponent,
+    TecnologiaComponent,
+    SostenibilidadComponent,
+    SeguridadComponent,
+    RoboticaComponent,
+    MercadeoComponent,
+    ArticulosComponent
+
   ],
   imports: [
     BrowserModule,
