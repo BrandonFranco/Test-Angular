@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app.routing.module'
 import { ProductListComponent } from './components/product.list/product.list.component';
 import { RedesComponent } from './components/redes/redes.component';
+import { PostTopComponent } from './components/post-top/post-top.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RedesComponent } from './components/redes/redes.component';
     ContactComponent,
     EdicionesComponent,
     ProductListComponent,
-    RedesComponent
+    RedesComponent,
+    PostTopComponent
   ],
   imports: [
     BrowserModule,

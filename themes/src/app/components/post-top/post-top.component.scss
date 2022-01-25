@@ -1,0 +1,29 @@
+.post-top{
+    align-items: center;
+    background-color: #002C42;
+    display: flex;
+    padding: 15px 0px 17px 120px;
+    width: 100%;
+    .icon{
+        background: url('https://i.postimg.cc/Mpw5M9kk/Short-tag-Last-edition.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        margin-right: 20px;
+        width: 35px;
+        height: 35px;
+    }
+    .text-post{
+        .title-post{
+            font-size: 14px;
+            color: white;
+            margin: 0;
+        }
+        .post-info{
+            font-size: 12px;
+            color: white;
+            margin: 0;
+        }
+    }
+}
