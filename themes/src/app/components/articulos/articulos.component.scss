@@ -1,0 +1,41 @@
+.articulos-destacados{
+    margin-left: 17px;
+    margin-top: 32px;
+    margin-right: 45px;
+    .article-title{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .articles{
+        .article{
+            align-items: center;
+            display: flex;
+            margin-bottom: 16px;
+            .img{
+                height: 85px;
+                width: 80px;
+            }
+            .information{
+                padding-left: 18px;
+                .title{
+                    font-size: 12px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+                .data-post{
+                    display: flex;
+                    align-items: center;
+                    .autor{
+                        color: #FF7158;
+                        font-size: 12px;
+                    }
+                    .date{
+                        color: #6D6D6D;
+                        margin-left: 20px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
