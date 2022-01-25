@@ -23,6 +23,7 @@ import { SeguridadComponent } from './categories-list/seguridad/seguridad.compon
 import { SostenibilidadComponent } from './categories-list/sostenibilidad/sostenibilidad.component';
 import { TecnologiaComponent } from './categories-list/tecnologia/tecnologia.component';
 import { ArticulosComponent } from './components/articulos/articulos.component';
+import { MasLeidoComponent } from './components/mas-leido/mas-leido.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ArticulosComponent } from './components/articulos/articulos.component';
     SeguridadComponent,
     RoboticaComponent,
     MercadeoComponent,
-    ArticulosComponent
+    ArticulosComponent,
+    MasLeidoComponent
 
   ],
   imports: [

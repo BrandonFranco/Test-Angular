@@ -1,0 +1,97 @@
+.category-post{
+    padding: 32px 16px;
+    padding-bottom: 0;
+    max-width: 100%;
+    border-bottom: 1px solid #E9ECEF;
+    .image-post{
+        .ref-image{
+            align-items: center;
+            background: #E53212;
+            display: flex;
+            padding: 8px;
+            position: absolute;
+            top: 229px;
+            width: fit-content;
+            span{
+                background: url('https://i.postimg.cc/kG1DcmCZ/Edition-Icon-White.png');
+                background-position: center;
+                background-size: contain;
+                display: block;
+                height: 14.4px;
+                width: 16px;
+            }
+            p{
+                color: white;
+                font-size: 14px;
+                margin: 0;
+                padding-left: 12px;
+            }
+        }
+        .mic-bottom{
+            background: url('https://i.postimg.cc/3N4zLsDN/Pordcast-content-Tag.png');
+            background-position: center;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            top: 229px;
+            right: 25.7%;
+            height: 32px;
+            width: 32px;
+        }
+        .info-post{
+            display: flex;
+            position: absolute;
+            top: 500px;
+            .category{
+                background: #05111DB2;
+                opacity: 70%;
+                p{
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 0;
+                    padding: 7px 4px;
+                }
+            }
+            .sub-category{
+                background: #05111DB2;
+                opacity: 70%;
+                margin-left: 3px;
+                p{
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 0;
+                    padding: 7px 4px;
+                }
+            }
+        }
+    }
+    .text-post{
+        .title-post{
+            color: black;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            margin-top: 16px;
+        }
+        .descriptiion-post{
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+    }
+    .data-post{
+        display: flex;
+        align-items: center;
+        .autor{
+            color: #FF7158;
+            font-size: 14px;
+        }
+        .date{
+            color: #6D6D6D;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    }
+}
