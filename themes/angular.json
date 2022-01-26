@@ -31,9 +31,7 @@
               "src/styles.css",
               "src/assets/css/style.css"
             ],
-            "scripts": [
-              "src/assets/js/custom.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -102,9 +100,7 @@
               "src/styles.css",
               "src/assets/css/style.css"
             ],
-            "scripts": [
-              "src/assets/js/custom.js"
-            ]
+            "scripts": []
           }
         }
       }
