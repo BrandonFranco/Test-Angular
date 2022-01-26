@@ -4,6 +4,10 @@
     max-width: 100%;
     border-bottom: 1px solid #E9ECEF;
     .image-post{
+        img{
+            max-width: 100%;
+            width: auto;
+        }
         .ref-image{
             align-items: center;
             background: #E53212;
