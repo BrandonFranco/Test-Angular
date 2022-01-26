@@ -69,6 +69,142 @@ hr {
   border-top: 1px solid #f2f2f2;
 }
 
+@font-face {
+  font-family: 'iconFont';
+  src: url("./../fonts/iconFont/icomoon.eot?d3i0h3");
+  src: url("./../fonts/iconFont/icomoon.eot?d3i0h3#iefix") format("embedded-opentype"), url("./../fonts/iconFont/icomoon.ttf?d3i0h3") format("truetype"), url("./../fonts/iconFont/icomoon.woff?d3i0h3") format("woff"), url("./../fonts/iconFont/icomoon.svg?d3i0h3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* line 17, ../scss/config/_fonts.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconFont' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 31, ../scss/config/_fonts.scss */
+.icon-clear:before {
+  content: "\e903";
+}
+
+/* line 34, ../scss/config/_fonts.scss */
+.icon-close:before {
+  content: "\e903";
+}
+
+/* line 37, ../scss/config/_fonts.scss */
+.icon-book-open:before {
+  content: "\e904";
+}
+
+/* line 40, ../scss/config/_fonts.scss */
+.icon-search:before {
+  content: "\e905";
+}
+
+/* line 43, ../scss/config/_fonts.scss */
+.icon-menu:before {
+  content: "\e906";
+}
+
+/* line 46, ../scss/config/_fonts.scss */
+.icon-mic:before {
+  content: "\e907";
+}
+
+/* line 49, ../scss/config/_fonts.scss */
+.icon-play:before {
+  content: "\e900";
+}
+
+/* line 52, ../scss/config/_fonts.scss */
+.icon-file-text-o:before {
+  content: "\e908";
+}
+
+/* line 55, ../scss/config/_fonts.scss */
+.icon-linkedin-with-circle:before {
+  content: "\e909";
+}
+
+/* line 58, ../scss/config/_fonts.scss */
+.icon-twitter-with-circle:before {
+  content: "\e90a";
+}
+
+/* line 61, ../scss/config/_fonts.scss */
+.icon-youtube-with-circle:before {
+  content: "\e901";
+}
+
+/* line 64, ../scss/config/_fonts.scss */
+.icon-facebook-with-circle:before {
+  content: "\e902";
+}
+
+/* line 67, ../scss/config/_fonts.scss */
+.icon-mail4:before {
+  content: "\ea86";
+}
+
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-LightItalic.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-ThinItalic.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-Black.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: url("./../fonts/BrandonGrotesque/BrandonGrotesque-Light.woff2") format("woff2"), url("./../fonts/BrandonGrotesque/BrandonGrotesque-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 /* line 2, ../scss/base/_body.scss */
 *,
 *:before, *:after {
@@ -83,7 +219,7 @@ html {
 
 /* line 11, ../scss/base/_body.scss */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brandon-grotesque", sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   display: flex;
@@ -104,7 +240,7 @@ p {
 
 /* line 1, ../scss/base/_links.scss */
 a, button {
-  color: #0074FC;
+  color: #6D6D6D;
   text-decoration: none;
   outline: 0;
   transition: color .1s ease-out;
@@ -115,7 +251,7 @@ a.button:hover, button.button:hover {
 }
 /* line 13, ../scss/base/_links.scss */
 a:hover, a:focus, button:hover, button:focus {
-  color: #0056B3;
+  color: #E9ECEF;
 }
 @media (max-width: 539px) {
   /* line 13, ../scss/base/_links.scss */
@@ -125,16 +261,16 @@ a:hover, a:focus, button:hover, button:focus {
 }
 /* line 19, ../scss/base/_links.scss */
 a.underline-link, button.underline-link {
-  color: #0074FC;
+  color: #6D6D6D;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brandon-grotesque", sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
   text-decoration: underline;
 }
 /* line 27, ../scss/base/_links.scss */
 a.text-link, button.text-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brandon-grotesque", sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
   border: none;
@@ -150,30 +286,30 @@ a.text-link, button.text-link {
 }
 /* line 41, ../scss/base/_links.scss */
 a.text-link.text-primary-base, button.text-link.text-primary-base {
-  color: #001B3D;
+  color: #002C42;
 }
 /* line 43, ../scss/base/_links.scss */
 a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
-  color: #002646;
+  color: #3B5875;
 }
 /* line 47, ../scss/base/_links.scss */
 a.text-link.text-secondary-base, button.text-link.text-secondary-base {
-  color: #FFA20D;
+  color: #FF7158;
 }
 /* line 49, ../scss/base/_links.scss */
 a.text-link.text-secondary-base:hover, button.text-link.text-secondary-base:hover {
-  color: #532e00;
+  color: #E6E6E6;
 }
 /* line 53, ../scss/base/_links.scss */
 a.text-link.text-primary-base, button.text-link.text-primary-base {
-  color: #002646;
+  color: #3B5875;
   font-size: 2rem;
   text-decoration: underline;
   text-transform: none;
 }
 /* line 58, ../scss/base/_links.scss */
 a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
-  color: #001B3D;
+  color: #002C42;
 }
 
 /* line 4, ../scss/base/_flexbox.scss */
@@ -780,7 +916,7 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 1, ../scss/base/_buttons.scss */
 .btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brandon-grotesque", sans-serif;
   font-size: 1.6rem;
   padding: 1.35rem 2.5rem;
   border: none;
@@ -800,24 +936,24 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 16, ../scss/base/_buttons.scss */
 .btn.btn-primary {
-  background: #002646;
+  background: #3B5875;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-primary:hover {
-  background: #001322;
+  background: #2f465d;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
 .btn.btn-primary:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgba(0, 27, 61, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(0, 44, 66, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
 .btn.btn-primary:active {
-  background: #000a13;
+  background: #2a3f53;
 }
 /* line 81, ../scss/config/_mixins.scss */
 .btn.btn-primary.disabled, .btn.btn-primary:disabled {
@@ -839,8 +975,8 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 /* line 18, ../scss/base/_buttons.scss */
 .btn.btn-primary.outline {
   background: transparent;
-  color: #002646;
-  border: 0.13rem solid #002646;
+  color: #3B5875;
+  border: 0.13rem solid #3B5875;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-primary.outline:hover {
@@ -851,7 +987,7 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 /* line 73, ../scss/config/_mixins.scss */
 .btn.btn-primary.outline:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgba(0, 27, 61, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(0, 44, 66, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
@@ -877,24 +1013,24 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 21, ../scss/base/_buttons.scss */
 .btn.btn-primary.outline:hover, .btn.btn-primary.outline:active {
-  background: #002646;
+  background: #3B5875;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-primary.outline:hover:hover, .btn.btn-primary.outline:active:hover {
-  background: #001322;
+  background: #2f465d;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
 .btn.btn-primary.outline:hover:focus, .btn.btn-primary.outline:active:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgba(0, 27, 61, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(0, 44, 66, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
 .btn.btn-primary.outline:hover:active, .btn.btn-primary.outline:active:active {
-  background: #000a13;
+  background: #2a3f53;
 }
 /* line 81, ../scss/config/_mixins.scss */
 .btn.btn-primary.outline:hover.disabled, .btn.btn-primary.outline:hover:disabled, .btn.btn-primary.outline:active.disabled, .btn.btn-primary.outline:active:disabled {
@@ -915,24 +1051,24 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 26, ../scss/base/_buttons.scss */
 .btn.btn-secondary {
-  background: #FFA20D;
-  color: #1b1b1b;
+  background: #FF7158;
+  color: #005285;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-secondary:hover {
-  background: #e88f00;
+  background: #ff5334;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
 .btn.btn-secondary:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgba(0, 27, 61, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(0, 44, 66, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
 .btn.btn-secondary:active {
-  background: #d98600;
+  background: #ff4625;
 }
 /* line 81, ../scss/config/_mixins.scss */
 .btn.btn-secondary.disabled, .btn.btn-secondary:disabled {
@@ -954,8 +1090,8 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 /* line 28, ../scss/base/_buttons.scss */
 .btn.btn-secondary.outline {
   background: transparent;
-  color: #FFA20D;
-  border: 0.15rem solid #FFA20D;
+  color: #FF7158;
+  border: 0.15rem solid #FF7158;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-secondary.outline:hover {
@@ -966,7 +1102,7 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 /* line 73, ../scss/config/_mixins.scss */
 .btn.btn-secondary.outline:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgba(0, 27, 61, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(0, 44, 66, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
@@ -992,24 +1128,24 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 31, ../scss/base/_buttons.scss */
 .btn.btn-secondary.outline:hover, .btn.btn-secondary.outline:active {
-  background: #FFA20D;
+  background: #FF7158;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-secondary.outline:hover:hover, .btn.btn-secondary.outline:active:hover {
-  background: #e88f00;
+  background: #ff5334;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
 .btn.btn-secondary.outline:hover:focus, .btn.btn-secondary.outline:active:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.15rem rgba(0, 27, 61, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(0, 44, 66, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
 .btn.btn-secondary.outline:hover:active, .btn.btn-secondary.outline:active:active {
-  background: #d98600;
+  background: #ff4625;
 }
 /* line 81, ../scss/config/_mixins.scss */
 .btn.btn-secondary.outline:hover.disabled, .btn.btn-secondary.outline:hover:disabled, .btn.btn-secondary.outline:active.disabled, .btn.btn-secondary.outline:active:disabled {
@@ -1037,4 +1173,118 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 .btn.medium {
   font-size: 1.4rem;
   padding: 11px 38px;
+}
+
+/* line 1, ../scss/components/_header.scss */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 9rem;
+  box-shadow: 0px 3px 4px rgba(233, 236, 239, 0.3);
+  border: 1px solid #E9ECEF;
+  max-height: 58px;
+}
+/* line 9, ../scss/components/_header.scss */
+header .icon-menu {
+  display: none;
+}
+/* line 12, ../scss/components/_header.scss */
+header .logo {
+  height: 25px;
+}
+/* line 15, ../scss/components/_header.scss */
+header .logo-mobile {
+  display: none;
+}
+/* line 18, ../scss/components/_header.scss */
+header .container-header {
+  top: 0;
+  width: 100%;
+  margin-left: 10%;
+  display: flex;
+}
+/* line 23, ../scss/components/_header.scss */
+header .container-header a {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 22px;
+  padding-bottom: 16px;
+  margin-right: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+  color: #005285;
+}
+/* line 33, ../scss/components/_header.scss */
+header .container-header a.active {
+  border-bottom: 2px solid #D42E10;
+}
+/* line 36, ../scss/components/_header.scss */
+header .container-header a:hover {
+  border-bottom: 2px solid #D42E10;
+}
+/* line 41, ../scss/components/_header.scss */
+header .adc-btn {
+  border-right: 1px solid #E9ECEF;
+}
+/* line 43, ../scss/components/_header.scss */
+header .adc-btn .button {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 8px;
+  background: #005285;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  margin-right: 27px;
+}
+/* line 53, ../scss/components/_header.scss */
+header .adc-btn .button:hover {
+  background-color: #005285a4;
+}
+/* line 58, ../scss/components/_header.scss */
+header .icon-search {
+  font-size: 20px;
+  color: #005285;
+  margin-left: 27px;
+}
+
+@media (max-width: 765px) {
+  /* line 66, ../scss/components/_header.scss */
+  header {
+    padding: 1rem 2rem;
+  }
+  /* line 68, ../scss/components/_header.scss */
+  header .icon-menu {
+    display: block;
+    color: #005285;
+    font-size: 20px;
+  }
+  /* line 73, ../scss/components/_header.scss */
+  header .logo {
+    display: none;
+  }
+  /* line 76, ../scss/components/_header.scss */
+  header .logo-mobile {
+    display: block;
+    height: 25px;
+  }
+  /* line 80, ../scss/components/_header.scss */
+  header .container-header {
+    display: none;
+  }
+  /* line 83, ../scss/components/_header.scss */
+  header .adc-btn {
+    border: none;
+  }
+  /* line 85, ../scss/components/_header.scss */
+  header .adc-btn .button {
+    margin-right: 0;
+  }
+  /* line 89, ../scss/components/_header.scss */
+  header .icon-search {
+    margin-left: 0;
+  }
 }

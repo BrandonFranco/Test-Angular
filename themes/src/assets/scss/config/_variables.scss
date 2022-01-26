@@ -3,7 +3,7 @@
 // ==========================================================================
 
 $font-size         : 1.6rem;
-$font-primary      : 'Montserrat', sans-serif;
+$font-primary      : 'brandon-grotesque', sans-serif;
 $font-icon         : 'iconFont'; 
 
 // ==========================================================================
@@ -12,30 +12,17 @@ $font-icon         : 'iconFont';
 
 $colors: (
    primary: (
-      base     : #001B3D,
-      dark     : #002646
+      base     : #002C42,
+      dark     : #3B5875,
+      light    : #005285
    ),
    secondary: (
-      base     : #FFA20D,
-      dark     : rgb(83, 46, 0)
-   ),
-   complementary: (
-      one      : #001B3D,
-      two      : #0059A3,
-      three    : #C59158,
-      four     : #004EFF,
-      five     : #FF0000,
-      six      : #FF6C00
-   ),
-   alerts: (
-      sucess   : #28A745,
-      error    : #DC3545,
-      warning  : #FFC100,
-      info     : #0074FC
+      base     : #FF7158,
+      dark     : #E6E6E6
    ),
    controls:(
-      base     : #0074FC,
-      dark     : #0056B3,
+      base     : #6D6D6D,
+      dark     : #E9ECEF,
    ),
    grayscale: (
       white    : #ffffff,
@@ -46,12 +33,13 @@ $colors: (
       gray-5   : #666666,
       gray-6   : #333333,
       gray-7   : #4A4A4A,
-      base     : #1b1b1b,
+      base     : #005285,
       black    : #000000
    ),
    border:(
-      color-1  : #ced4da,
-      color-2  : #999999
+      color-1  : #D42E10,
+      color-2  : #E9ECEF,
+      color-3  : #FFC000 
    )
 );
 
