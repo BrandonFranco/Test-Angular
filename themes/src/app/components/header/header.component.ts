@@ -12,10 +12,10 @@ export class HeaderComponent implements OnInit {
 
   //fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);//
   fillerNav=[
-    {name:"home", route:"home", icon:"home"},
-    {name:"categorías", route:"products"},
-    {name:"eventos", route:"contact"},
-    {name:"ediciones", route:"ediciones"}
+    {name:"HOME", route:"home", icon:"home"},
+    {name:"CATEGORÍAS", route:"products"},
+    {name:"EVENTOS", route:"contact"},
+    {name:"EDICIONES", route:"ediciones"}
   ]
 
   private _mobileQueryListener: () => void;
