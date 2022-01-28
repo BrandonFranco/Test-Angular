@@ -7,6 +7,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout';
+import {MatSliderModule} from '@angular/material/slider';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -63,7 +64,8 @@ import { MasLeidoComponent } from './components/mas-leido/mas-leido.component';
     MatListModule,
     LayoutModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSliderModule
 
   
   ],

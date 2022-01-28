@@ -2,13 +2,11 @@
     <nav class="categories-container">
         <div class="categories">
             <h2 class="categories-title">CATEGORÍAS</h2>
-            <a>Mercadeo automotriz</a>
-            <a>Manufactura</a>
-            <a>Tecnologia de procesos</a>
-            <a>Seguridad industrial</a>
-            <a>Manejo de materiales</a>
-            <a>Sostenibilidad</a>
-            <a>Robótica</a>
+            <a *ngFor="let div of fillerNav">{{div.name}}</a>
+        </div>
+        <div class="categories-mobile">
+            <h2 class="categories-title">CATEGORÍAS</h2>
+            <a *ngFor="let div of fillerNavMobile">{{div.name}}</a>
         </div>
     </nav>
     <app-manufactura class="app-manufactura"></app-manufactura>

@@ -4,7 +4,7 @@
     <img src="https://i.postimg.cc/nr0DY6FW/Logo-RI-Mobile.png" alt="Logo de reportero industrial" class="logo-mobile">
     <img src="https://i.postimg.cc/1X9QZ7J1/Logo-RI-1.png" alt="Logo de reportero industrial" class="logo-desktop">
     <nav class="nav-desktop">
-      <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav">{{nav.name}}</a>
+      <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav" routerLinkActive="active">{{nav.name}}</a>
     </nav>
     <div class="adc-btn">
       <a class="button">ACCEDER</a>
