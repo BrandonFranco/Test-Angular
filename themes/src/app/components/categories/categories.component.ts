@@ -27,6 +27,16 @@ export class CategoriesComponent implements OnInit {
     {name:"Robótica"}
   ]
 
+  slideConfig = {"slidesToShow":3, "slidesToScroll": 1};
+  
+  slickInit(e: any) {
+    console.log('slick initialized');
+  }
+  
+  beforeChange(e: any) {
+    console.log('beforeChange');
+  }
+
   constructor() { }
 
   ngOnInit(): void {

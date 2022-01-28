@@ -1326,3 +1326,17 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
     padding-left: 27px;
   }
 }
+/* line 1, ../scss/components/_slider.scss */
+.categories-mobile {
+  overflow: hidden;
+}
+/* line 3, ../scss/components/_slider.scss */
+.categories-mobile button {
+  display: none !important;
+}
+/* line 7, ../scss/components/_slider.scss */
+.categories-mobile .slick-list .slick-track {
+  display: flex;
+  align-items: center;
+  background: #E9ECEF;
+}

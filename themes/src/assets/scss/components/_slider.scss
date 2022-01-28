@@ -1,0 +1,13 @@
+.categories-mobile{
+    overflow: hidden;
+    button{
+        display: none !important;
+    }
+    .slick-list{
+        .slick-track{
+            display: flex;
+            align-items: center;
+            background: #E9ECEF;
+        }
+    }
+}
