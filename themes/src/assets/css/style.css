@@ -1175,61 +1175,42 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   padding: 11px 38px;
 }
 
-/* line 1, ../scss/components/_header.scss */
-header {
+/* line 2, ../scss/components/_header.scss */
+.example-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 10, ../scss/components/_header.scss */
+.example-container .example-toolbar {
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 9rem;
   box-shadow: 0px 3px 4px rgba(233, 236, 239, 0.3);
   border: 1px solid #E9ECEF;
   max-height: 58px;
+  background: white;
+  padding: 1rem 2rem;
 }
-/* line 9, ../scss/components/_header.scss */
-header .icon-menu {
-  display: none;
-}
-/* line 12, ../scss/components/_header.scss */
-header .logo {
-  height: 25px;
-}
-/* line 15, ../scss/components/_header.scss */
-header .logo-mobile {
-  display: none;
-}
-/* line 18, ../scss/components/_header.scss */
-header .container-header {
-  top: 0;
-  width: 100%;
-  margin-left: 10%;
-  display: flex;
-}
-/* line 23, ../scss/components/_header.scss */
-header .container-header a {
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  padding-top: 22px;
-  padding-bottom: 16px;
-  margin-right: 18px;
-  margin-left: 18px;
-  text-decoration: none;
+/* line 21, ../scss/components/_header.scss */
+.example-container .example-toolbar button mat-icon {
   color: #005285;
 }
-/* line 33, ../scss/components/_header.scss */
-header .container-header a.active {
-  border-bottom: 2px solid #D42E10;
+/* line 25, ../scss/components/_header.scss */
+.example-container .example-toolbar .nav-desktop {
+  display: none;
 }
-/* line 36, ../scss/components/_header.scss */
-header .container-header a:hover {
-  border-bottom: 2px solid #D42E10;
-}
-/* line 41, ../scss/components/_header.scss */
-header .adc-btn {
+/* line 28, ../scss/components/_header.scss */
+.example-container .example-toolbar .adc-btn {
   border-right: 1px solid #E9ECEF;
 }
-/* line 43, ../scss/components/_header.scss */
-header .adc-btn .button {
+/* line 30, ../scss/components/_header.scss */
+.example-container .example-toolbar .adc-btn .button {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -1238,53 +1219,109 @@ header .adc-btn .button {
   border-radius: 0px;
   cursor: pointer;
   color: white;
-  margin-right: 27px;
 }
-/* line 53, ../scss/components/_header.scss */
-header .adc-btn .button:hover {
+/* line 39, ../scss/components/_header.scss */
+.example-container .example-toolbar .adc-btn .button:hover {
   background-color: #005285a4;
 }
-/* line 58, ../scss/components/_header.scss */
-header .icon-search {
+/* line 44, ../scss/components/_header.scss */
+.example-container .example-toolbar .icon-search {
   font-size: 20px;
   color: #005285;
   margin-left: 27px;
 }
+/* line 50, ../scss/components/_header.scss */
+.example-container .example-sidenav-container {
+  flex: 1;
+}
+/* line 52, ../scss/components/_header.scss */
+.example-container .example-sidenav-container .mat-sidenav {
+  width: 100%;
+}
+/* line 54, ../scss/components/_header.scss */
+.example-container .example-sidenav-container .mat-sidenav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #005285;
+}
+/* line 65, ../scss/components/_header.scss */
+.example-container .logo-mobile {
+  display: block;
+  height: 25px;
+}
+/* line 69, ../scss/components/_header.scss */
+.example-container .logo-desktop {
+  display: none;
+}
+/* line 73, ../scss/components/_header.scss */
+.example-container.example-is-mobile .example-toolbar {
+  position: fixed;
+  z-index: 2;
+}
+/* line 76, ../scss/components/_header.scss */
+.example-container.example-is-mobile .example-toolbar .example-app-name {
+  margin-left: 8px;
+}
+/* line 80, ../scss/components/_header.scss */
+.example-container.example-is-mobile .example-sidenav-container {
+  flex: 1 0 auto;
+}
 
-@media (max-width: 765px) {
-  /* line 66, ../scss/components/_header.scss */
-  header {
-    padding: 1rem 2rem;
+@media (min-width: 769px) {
+  /* line 88, ../scss/components/_header.scss */
+  .example-container .example-toolbar {
+    padding: 0 10%;
   }
-  /* line 68, ../scss/components/_header.scss */
-  header .icon-menu {
-    display: block;
-    color: #005285;
-    font-size: 20px;
-  }
-  /* line 73, ../scss/components/_header.scss */
-  header .logo {
+  /* line 90, ../scss/components/_header.scss */
+  .example-container .example-toolbar button {
     display: none;
   }
-  /* line 76, ../scss/components/_header.scss */
-  header .logo-mobile {
-    display: block;
+  /* line 93, ../scss/components/_header.scss */
+  .example-container .example-toolbar .logo-mobile {
+    display: none;
+  }
+  /* line 96, ../scss/components/_header.scss */
+  .example-container .example-toolbar .logo-desktop {
     height: 25px;
+    display: inline;
   }
-  /* line 80, ../scss/components/_header.scss */
-  header .container-header {
-    display: none;
+  /* line 100, ../scss/components/_header.scss */
+  .example-container .example-toolbar .nav-desktop {
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    height: 58px;
   }
-  /* line 83, ../scss/components/_header.scss */
-  header .adc-btn {
-    border: none;
+  /* line 105, ../scss/components/_header.scss */
+  .example-container .example-toolbar .nav-desktop a {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-right: 18px;
+    margin-left: 18px;
+    text-decoration: none;
+    color: #005285;
   }
-  /* line 85, ../scss/components/_header.scss */
-  header .adc-btn .button {
-    margin-right: 0;
+  /* line 114, ../scss/components/_header.scss */
+  .example-container .example-toolbar .nav-desktop a.active {
+    border-bottom: 2px solid #D42E10;
   }
-  /* line 89, ../scss/components/_header.scss */
-  header .icon-search {
-    margin-left: 0;
+  /* line 117, ../scss/components/_header.scss */
+  .example-container .example-toolbar .nav-desktop a:hover {
+    border-bottom: 2px solid #D42E10;
+  }
+  /* line 122, ../scss/components/_header.scss */
+  .example-container .example-toolbar .adc-btn {
+    margin-right: 27px;
+  }
+  /* line 125, ../scss/components/_header.scss */
+  .example-container .example-toolbar .icon-search {
+    border-left: 1px solid #E9ECEF;
+    padding-left: 27px;
   }
 }
