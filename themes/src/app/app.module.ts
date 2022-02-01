@@ -9,6 +9,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatSliderModule } from '@angular/material/slider';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -67,7 +69,9 @@ import { MasLeidoComponent } from './components/mas-leido/mas-leido.component';
     MatToolbarModule,
     MatIconModule,
     MatSliderModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    MatExpansionModule,
+    MatTabsModule
   
   ],
   providers: [],

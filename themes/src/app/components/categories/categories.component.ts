@@ -5,10 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './categories.component.html',
   styleUrls: ['./categories.component.scss']
 })
+
+
 export class CategoriesComponent implements OnInit {
 
   fillerNavMobile=[
-    {name:"Mercadeo automotriz"},
+    {name:"Mercadeo automotriz"}, 
     {name:"Manufactura"},
     {name:"Tecnologia de procesos"},
     {name:"Seguridad industrial"},

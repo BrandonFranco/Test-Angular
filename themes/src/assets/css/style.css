@@ -917,14 +917,14 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 /* line 1, ../scss/base/_buttons.scss */
 .btn {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding: 1.35rem 2.5rem;
   border: none;
   cursor: pointer;
   font-weight: 700;
   line-height: 1;
   outline: none;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: none;
   text-transform: uppercase;
   width: 100%;
 }
@@ -936,12 +936,12 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 16, ../scss/base/_buttons.scss */
 .btn.btn-primary {
-  background: #3B5875;
+  background: #005285;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
 .btn.btn-primary:hover {
-  background: #2f465d;
+  background: #003c61;
   transition: background 0.2s ease;
   text-decoration: none;
 }
@@ -953,7 +953,7 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 78, ../scss/config/_mixins.scss */
 .btn.btn-primary:active {
-  background: #2a3f53;
+  background: #003352;
 }
 /* line 81, ../scss/config/_mixins.scss */
 .btn.btn-primary.disabled, .btn.btn-primary:disabled {
@@ -1339,4 +1339,61 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   display: flex;
   align-items: center;
   background: #E9ECEF;
+}
+
+/* line 1, ../scss/components/_date-post.scss */
+.data-post {
+  display: flex;
+  align-items: center;
+}
+/* line 4, ../scss/components/_date-post.scss */
+.data-post .autor {
+  color: #FF7158;
+  font-size: 12px;
+}
+/* line 8, ../scss/components/_date-post.scss */
+.data-post .date {
+  color: #6D6D6D;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+/* line 3, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary {
+  display: flex;
+  flex-direction: row;
+}
+/* line 8, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels {
+  display: flex;
+  flex-direction: column;
+}
+/* line 12, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label .mat-tab-label-content {
+  text-align: left;
+  border: 1px solid #E9ECEF;
+  background: transparent;
+  color: #3B5875;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 36px 8px 8px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  width: 200px;
+}
+/* line 23, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label .mat-tab-label-content:hover {
+  background: #3B5875;
+  color: white;
+  transition: 1s;
+}
+/* line 30, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label.mat-tab-label-active .mat-tab-label-content {
+  background: #3B5875;
+  color: white;
+  transition: 1s;
+}
+/* line 38, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-ink-bar {
+  visibility: hidden !important;
 }

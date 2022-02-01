@@ -3,16 +3,21 @@
 .container{
     display: flex;
     max-width: 100%;
+    justify-content: center;
     .categories-container{
         padding-left: 5%;
+        padding-top: 32px;
         .categories-mobile{
-            display: none;
+            display: none; 
         }
         .categories{
             display: flex;
             flex-direction: column;
             width: auto;
-            a{
+            h2{
+                margin-left: 27px;
+            }
+            .a{
                 text-align: left;
                 border: 1px solid #E9ECEF;
                 background: transparent;
@@ -32,7 +37,8 @@
         }
     }
     .app-manufactura{
-        width: 54%;
+        max-width: 692px;
+        width: 100%;
     }
 }
 @media(max-width:765px){
@@ -62,7 +68,7 @@
             }
         }
         .app-manufactura{
-            width: 100%;
+            max-width: none;
         }
     }
 }

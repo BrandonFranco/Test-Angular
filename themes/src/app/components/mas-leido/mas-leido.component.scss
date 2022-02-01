@@ -1,5 +1,21 @@
+@import './../../../assets/scss/config/variables';
+
 .mas-leido{
+    margin-top: 54px;
+    padding: 56px;
+    background: #E9ECEF;
+    h2{
+        line-height: 40px;
+    }
     .articles{
-        display: flex;
+        display: flex; 
+        justify-content: center;
+        .article{
+            max-width: 288px;
+            margin-right: 16px;
+            &:last-child{
+                margin-right: 0px;
+            }
+        }
     }
 }

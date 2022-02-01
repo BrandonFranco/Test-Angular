@@ -1,16 +1,21 @@
 .category-post{
-    padding: 32px 16px;
+    padding: 0px 16px;
     padding-bottom: 0;
-    max-width: 100%;
+    max-width: 692px;
+    width: 100%;
     border-bottom: 1px solid #E9ECEF;
     .image-post{
+        img{
+            max-width: 100%;
+            width: auto;
+        }
         .ref-image{
             align-items: center;
             background: #E53212;
             display: flex;
             padding: 8px;
             position: absolute;
-            top: 229px;
+            top: 0px;
             width: fit-content;
             span{
                 background: url('https://i.postimg.cc/kG1DcmCZ/Edition-Icon-White.png');
@@ -33,15 +38,15 @@
             background-size: contain;
             display: block;
             position: absolute;
-            top: 229px;
-            right: 25.7%;
+            top: 0px;
+            right: 16px;
             height: 32px;
             width: 32px;
         }
         .info-post{
             display: flex;
             position: absolute;
-            top: 500px;
+            top: 236px;
             .category{
                 background: #05111DB2;
                 opacity: 70%;
@@ -93,5 +98,11 @@
             margin-left: 20px;
             font-size: 14px;
         }
+    }
+}
+
+@media (max-width: 768px){
+    .category-post{
+        padding: 0;
     }
 }
