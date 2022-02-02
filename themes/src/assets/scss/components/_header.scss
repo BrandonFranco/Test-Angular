@@ -87,7 +87,9 @@
 @media(min-width:769px){
     .example-container{
         .example-toolbar{
-            padding: 0 10%;
+            padding: 0 8%;
+            margin-top: 9px;
+            border-top: none;
             button{
                 display: none;
             }
@@ -95,13 +97,15 @@
                 display: none;
             }
             .logo-desktop{
-                height: 25px;
+                height: 27.3px;
                 display: inline;
+                padding-left: 17px;
+                margin-top: 4px;
             }
             .nav-desktop{
                 display: flex;
                 width: 100%;
-                margin-left: 10%;
+                margin-left: 15.3%;
                 height: 58px;
                 a{
                     font-family: $font-primary;
@@ -121,11 +125,11 @@
                 }
             }
             .adc-btn{
-                margin-right: 27px;
+                margin-right: -3px;
             }
             .icon-search{
                 border-left: 1px solid color(controls, dark);
-                padding-left: 27px;
+                padding-left: 18px;
             }
         }
     }

@@ -1275,29 +1275,33 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 @media (min-width: 769px) {
   /* line 89, ../scss/components/_header.scss */
   .example-container .example-toolbar {
-    padding: 0 10%;
+    padding: 0 8%;
+    margin-top: 9px;
+    border-top: none;
   }
-  /* line 91, ../scss/components/_header.scss */
+  /* line 93, ../scss/components/_header.scss */
   .example-container .example-toolbar button {
     display: none;
   }
-  /* line 94, ../scss/components/_header.scss */
+  /* line 96, ../scss/components/_header.scss */
   .example-container .example-toolbar .logo-mobile {
     display: none;
   }
-  /* line 97, ../scss/components/_header.scss */
+  /* line 99, ../scss/components/_header.scss */
   .example-container .example-toolbar .logo-desktop {
-    height: 25px;
+    height: 27.3px;
     display: inline;
+    padding-left: 17px;
+    margin-top: 4px;
   }
-  /* line 101, ../scss/components/_header.scss */
+  /* line 105, ../scss/components/_header.scss */
   .example-container .example-toolbar .nav-desktop {
     display: flex;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 15.3%;
     height: 58px;
   }
-  /* line 106, ../scss/components/_header.scss */
+  /* line 110, ../scss/components/_header.scss */
   .example-container .example-toolbar .nav-desktop a {
     font-family: "brandon-grotesque", sans-serif;
     font-size: 12px;
@@ -1308,22 +1312,22 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
     text-decoration: none;
     color: #005285;
   }
-  /* line 115, ../scss/components/_header.scss */
+  /* line 119, ../scss/components/_header.scss */
   .example-container .example-toolbar .nav-desktop a.active {
     border-bottom: 2px solid #D42E10;
   }
-  /* line 118, ../scss/components/_header.scss */
+  /* line 122, ../scss/components/_header.scss */
   .example-container .example-toolbar .nav-desktop a:hover {
     border-bottom: 2px solid #D42E10;
   }
-  /* line 123, ../scss/components/_header.scss */
+  /* line 127, ../scss/components/_header.scss */
   .example-container .example-toolbar .adc-btn {
-    margin-right: 27px;
+    margin-right: -3px;
   }
-  /* line 126, ../scss/components/_header.scss */
+  /* line 130, ../scss/components/_header.scss */
   .example-container .example-toolbar .icon-search {
     border-left: 1px solid #E9ECEF;
-    padding-left: 27px;
+    padding-left: 18px;
   }
 }
 /* line 1, ../scss/components/_slider.scss */
