@@ -1,5 +1,5 @@
 
-.example-container{
+.container-nav{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -7,12 +7,12 @@
     bottom: 0;
     left: 0;
     right: 0;
-    .example-toolbar{
+    .toolbar{
         background: transparent;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0px 3px 4px rgba(233, 236, 239, 0.3);
+        box-shadow: 0px 3px 4px rgba(233, 236, 239, 0.3); 
         border: 1px solid #E9ECEF;
         max-height: 58px;
         background: white;
@@ -21,6 +21,11 @@
             mat-icon{
                 color: color(primary, light);
             }
+        }
+        .search{
+            background: transparent;
+            border: none;
+            padding: 0;
         }
         .nav-desktop{
             display: none;
@@ -48,7 +53,7 @@
             margin-left: 27px;
         }
     }
-    .example-sidenav-container {
+    .sidenav-container {
         flex: 1;
         .mat-sidenav{
             width: 100%;
@@ -70,34 +75,39 @@
     .logo-desktop{
         display: none;
     }
-    &.example-is-mobile{
-        .example-toolbar {
+    &.container-nav-mobile{
+        .toolbar {
             position: fixed;
             z-index: 2;
             .example-app-name {
                 margin-left: 8px;
             }
         }
-        .example-sidenav-container {
+        .sidenav-container {
             flex: 1 0 auto;
         }
     }
 }
 
 @media(min-width:769px){
-    .example-container{
-        .example-toolbar{
-            padding: 0 8%;
-            margin-top: 9px;
+    .container-nav{
+        .toolbar{
+            padding: 0px 7.2%;
+            margin-top: 8px;
             border-top: none;
-            button{
-                display: none;
+            .toggle-button{
+                display: none; 
+            }
+            .search{
+                background: transparent;
+                border: none;
+                padding: 0;
             }
             .logo-mobile{
-                display: none;
+                display: none; 
             }
             .logo-desktop{
-                height: 27.3px;
+                height: 27.6px;
                 display: inline;
                 padding-left: 17px;
                 margin-top: 4px;
@@ -105,7 +115,7 @@
             .nav-desktop{
                 display: flex;
                 width: 100%;
-                margin-left: 15.3%;
+                margin-left: 15.04%;
                 height: 58px;
                 a{
                     font-family: $font-primary;
@@ -130,6 +140,7 @@
             .icon-search{
                 border-left: 1px solid color(controls, dark);
                 padding-left: 18px;
+                padding-right: 21px;
             }
         }
     }

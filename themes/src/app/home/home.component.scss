@@ -15,3 +15,14 @@ h2{
     font-size: 12px;
     text-align: center;
 }
+
+.publicity-container{
+    display: flex;
+    justify-content: center;
+    .publicity{
+        margin-top: 31px;
+        margin-bottom: 33px;
+        height: 90px;
+        width: auto;
+    }
+}
