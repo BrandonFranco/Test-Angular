@@ -2,7 +2,7 @@
     align-items: center;
     background-color: #002C42;
     display: flex;
-    padding: 15px 0px 17px 120px;
+    padding: 14px 0px 17px 120px;
     width: auto;
     .icon{
         background: url('https://i.postimg.cc/Mpw5M9kk/Short-tag-Last-edition.png');
@@ -10,18 +10,22 @@
         background-size: cover;
         background-repeat: no-repeat;
         display: block;
-        margin-right: 20px;
+        margin-right: 8px;
         width: 35px;
         height: 35px;
     }
     .text-post{
         .title-post{
-            font-size: 14px;
+            font-size: 12px;
+            font-weight: normal;
             color: white;
             margin: 0;
+            letter-spacing: 0.05px;
+            margin-top: 5px; 
         }
         .post-info{
             font-size: 12px;
+            font-weight: 200;
             color: white;
             margin: 0;
         }
