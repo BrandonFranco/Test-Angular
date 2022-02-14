@@ -56,11 +56,19 @@
             .article{
                 max-width: none;
                 margin: 0;
+                margin-bottom: 25px;
                 .article-img-mobile{
                     display: block;
                 }
                 .article-img{
                     display: none;
+                }
+                .article-title{
+                    margin-left: 0px;
+                    font-size: 18px;
+                    margin-top: 15px;
+                    line-height: 26px;
+                    letter-spacing: 1.11px;
                 }
             }
         }
