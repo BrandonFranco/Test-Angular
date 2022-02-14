@@ -3,18 +3,65 @@
 .mas-leido{
     margin-top: 54px;
     padding: 56px;
-    background: #E9ECEF;
+    background: color(controls, dark);
     h2{
         line-height: 40px;
+        margin-left: 63px;
+        font-size: 18px;
+        font-family: $font-primary;
+        font-weight: 600;
+        margin-top: -16px;
+        margin-bottom: 13px;
     }
     .articles{
         display: flex; 
         justify-content: center;
         .article{
+            .article-img-mobile {
+                display: none;
+            }
             max-width: 288px;
             margin-right: 16px;
             &:last-child{
                 margin-right: 0px;
+            }
+            .article-title{
+                margin-top: 17px;
+                letter-spacing: 0.25px;
+                line-height: 23px;
+            }
+            .article-text{
+                margin-top: 17px;
+                letter-spacing: 0.29px;
+                font-size: 14px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:380px){
+    .mas-leido{
+        padding: 21px;
+        margin-top: -4px;
+        h2{
+            line-height: 40px;
+            margin-left: 0px;
+            font-size: 18px;
+            margin-top: -22px;
+            margin-bottom: 18px;
+        }
+        .articles{
+            flex-direction: column;
+            .article{
+                max-width: none;
+                margin: 0;
+                .article-img-mobile{
+                    display: block;
+                }
+                .article-img{
+                    display: none;
+                }
             }
         }
     }

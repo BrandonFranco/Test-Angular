@@ -1,32 +1,28 @@
-<div class="container-nav" [class.container-nav-mobile]="mobileQuery.matches" *ngIf="shouldRun">
-  <mat-toolbar color="primary" class="toolbar">
-    <button class="toggle-button" mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
-    <img src="https://i.postimg.cc/nr0DY6FW/Logo-RI-Mobile.png" alt="Logo de reportero industrial" class="logo-mobile">
-    <img src="https://i.postimg.cc/1X9QZ7J1/Logo-RI-1.png" alt="Logo de reportero industrial" class="logo-desktop">
-    <nav class="nav-desktop">
-      <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav" routerLinkActive="active">{{nav.name}}</a>
-    </nav>
-    <div class="adc-btn"> 
-      <a class="button">ACCEDER</a>
-    </div>
-    <button class="search">
-      <span class="icon-search"></span>
-    </button>
-  </mat-toolbar>
+<header class="header">
+  <div class="container-nav" [class.container-nav-mobile]="mobileQuery.matches" *ngIf="shouldRun">
+    <mat-toolbar color="primary" class="toolbar">
+      <button class="toggle-button" mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+      <img src="./../../../assets/img/Logo RI - Mobile.png" alt="Logo de reportero industrial" class="logo-mobile" width="97" height="30">
+      <img src="./../../../assets/img/Logo RI.png" alt="Logo de reportero industrial" class="logo-desktop" width="245" height="28">
+      <nav class="nav-desktop">
+        <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav" routerLinkActive="active">{{nav.name}}</a>
+      </nav>
+      <div class="adc-btn"> 
+        <a class="button">ACCEDER</a>
+      </div>
+      <button class="search">
+        <span class="icon-search"></span>
+      </button>
+    </mat-toolbar>
 
-  <mat-sidenav-container class="sidenav-container"
-                         [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
-    <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
-                 [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
-      <mat-nav-list>
-        <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav">{{nav.name}}</a>
-      </mat-nav-list>
-    </mat-sidenav>
-
-    <mat-sidenav-content>
-      <router-outlet></router-outlet>
-    </mat-sidenav-content>
-  </mat-sidenav-container>
-</div>
-
-<div *ngIf="!shouldRun">Please open on Stackblitz to see result</div>
+    <mat-sidenav-container class="sidenav-container"
+                          [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+      <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
+                  [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+        <mat-nav-list>
+          <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav">{{nav.name}}</a>
+        </mat-nav-list>
+      </mat-sidenav>
+    </mat-sidenav-container>
+  </div>
+</header>

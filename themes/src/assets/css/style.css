@@ -1196,56 +1196,67 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   max-height: 58px;
   background: white;
   padding: 1rem 2rem;
+  z-index: 2;
 }
-/* line 21, ../scss/components/_header.scss */
+/* line 22, ../scss/components/_header.scss */
 .container-nav .toolbar button mat-icon {
   color: #005285;
+  font-size: 29px;
+  margin-top: -5px;
+  margin-left: -17px;
 }
-/* line 25, ../scss/components/_header.scss */
+/* line 28, ../scss/components/_header.scss */
+.container-nav .toolbar button .mat-button-wrapper {
+  font-size: 4px;
+  margin-right: 10px;
+}
+/* line 33, ../scss/components/_header.scss */
 .container-nav .toolbar .search {
   background: transparent;
   border: none;
   padding: 0;
 }
-/* line 30, ../scss/components/_header.scss */
+/* line 38, ../scss/components/_header.scss */
 .container-nav .toolbar .nav-desktop {
   display: none;
 }
-/* line 33, ../scss/components/_header.scss */
+/* line 41, ../scss/components/_header.scss */
 .container-nav .toolbar .adc-btn {
   border-right: 1px solid #E9ECEF;
+  margin-top: -5px;
+  margin-right: -10px;
 }
-/* line 35, ../scss/components/_header.scss */
+/* line 45, ../scss/components/_header.scss */
 .container-nav .toolbar .adc-btn .button {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 12px;
   font-weight: bold;
-  padding: 8px 10px;
+  padding: 7px 10px;
   background: #005285;
   border-radius: 0px;
   cursor: pointer;
   color: white;
   text-decoration: none;
 }
-/* line 45, ../scss/components/_header.scss */
+/* line 55, ../scss/components/_header.scss */
 .container-nav .toolbar .adc-btn .button:hover {
   background-color: #005285a4;
 }
-/* line 50, ../scss/components/_header.scss */
+/* line 60, ../scss/components/_header.scss */
 .container-nav .toolbar .icon-search {
-  font-size: 20px;
+  font-size: 22px;
   color: #005285;
-  margin-left: 27px;
+  margin-left: 1px;
 }
-/* line 56, ../scss/components/_header.scss */
+/* line 66, ../scss/components/_header.scss */
 .container-nav .sidenav-container {
   flex: 1;
 }
-/* line 58, ../scss/components/_header.scss */
+/* line 68, ../scss/components/_header.scss */
 .container-nav .sidenav-container .mat-sidenav {
   width: 100%;
 }
-/* line 60, ../scss/components/_header.scss */
+/* line 70, ../scss/components/_header.scss */
 .container-nav .sidenav-container .mat-sidenav a {
   display: flex;
   align-items: center;
@@ -1255,65 +1266,72 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   font-weight: bold;
   color: #005285;
 }
-/* line 71, ../scss/components/_header.scss */
+/* line 80, ../scss/components/_header.scss */
+.container-nav .sidenav-container.mat-drawer-container-has-open {
+  z-index: 2;
+  transition-duration: 400ms;
+}
+/* line 85, ../scss/components/_header.scss */
 .container-nav .logo-mobile {
   display: block;
-  height: 25px;
+  height: 34px;
+  margin-left: -40px;
 }
-/* line 75, ../scss/components/_header.scss */
+/* line 90, ../scss/components/_header.scss */
 .container-nav .logo-desktop {
   display: none;
 }
-/* line 79, ../scss/components/_header.scss */
+/* line 94, ../scss/components/_header.scss */
 .container-nav.container-nav-mobile .toolbar {
   position: fixed;
   z-index: 2;
 }
-/* line 82, ../scss/components/_header.scss */
+/* line 97, ../scss/components/_header.scss */
 .container-nav.container-nav-mobile .toolbar .example-app-name {
   margin-left: 8px;
 }
-/* line 86, ../scss/components/_header.scss */
+/* line 101, ../scss/components/_header.scss */
 .container-nav.container-nav-mobile .sidenav-container {
   flex: 1 0 auto;
 }
 
 @media (min-width: 769px) {
-  /* line 94, ../scss/components/_header.scss */
+  /* line 109, ../scss/components/_header.scss */
   .container-nav .toolbar {
     padding: 0px 7.2%;
-    margin-top: 8px;
+    margin-top: 5px;
     border-top: none;
   }
-  /* line 98, ../scss/components/_header.scss */
+  /* line 113, ../scss/components/_header.scss */
   .container-nav .toolbar .toggle-button {
     display: none;
   }
-  /* line 101, ../scss/components/_header.scss */
+  /* line 116, ../scss/components/_header.scss */
   .container-nav .toolbar .search {
     background: transparent;
     border: none;
     padding: 0;
   }
-  /* line 106, ../scss/components/_header.scss */
+  /* line 121, ../scss/components/_header.scss */
   .container-nav .toolbar .logo-mobile {
     display: none;
   }
-  /* line 109, ../scss/components/_header.scss */
+  /* line 124, ../scss/components/_header.scss */
   .container-nav .toolbar .logo-desktop {
     height: 27.6px;
     display: inline;
     padding-left: 17px;
     margin-top: 4px;
+    width: 245px;
   }
-  /* line 115, ../scss/components/_header.scss */
+  /* line 131, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop {
     display: flex;
     width: 100%;
     margin-left: 15.04%;
-    height: 58px;
+    height: 55px;
   }
-  /* line 120, ../scss/components/_header.scss */
+  /* line 136, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop a {
     font-family: "brandon-grotesque", sans-serif;
     font-size: 12px;
@@ -1324,23 +1342,23 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
     text-decoration: none;
     color: #005285;
   }
-  /* line 129, ../scss/components/_header.scss */
+  /* line 145, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop a.active {
     border-bottom: 2px solid #D42E10;
   }
-  /* line 132, ../scss/components/_header.scss */
+  /* line 148, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop a:hover {
     border-bottom: 2px solid #D42E10;
   }
-  /* line 137, ../scss/components/_header.scss */
+  /* line 153, ../scss/components/_header.scss */
   .container-nav .toolbar .adc-btn {
-    margin-right: -3px;
+    margin-right: 21px;
   }
-  /* line 140, ../scss/components/_header.scss */
+  /* line 156, ../scss/components/_header.scss */
   .container-nav .toolbar .icon-search {
     border-left: 1px solid #E9ECEF;
-    padding-left: 18px;
-    padding-right: 21px;
+    padding-left: 22px;
+    padding-right: 16px;
   }
 }
 /* line 1, ../scss/components/_slider.scss */
@@ -1362,16 +1380,17 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 .data-post {
   display: flex;
   align-items: center;
+  margin-top: 5px;
 }
-/* line 4, ../scss/components/_date-post.scss */
+/* line 5, ../scss/components/_date-post.scss */
 .data-post .autor {
   color: #FF7158;
   font-size: 12px;
 }
-/* line 8, ../scss/components/_date-post.scss */
+/* line 9, ../scss/components/_date-post.scss */
 .data-post .date {
   color: #6D6D6D;
-  margin-left: 20px;
+  margin-left: 9px;
   font-size: 12px;
 }
 
@@ -1380,37 +1399,83 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   display: flex;
   flex-direction: row;
 }
+/* line 6, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header {
+  padding-top: 31px;
+}
 /* line 8, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list {
+  margin-right: 11px;
+  margin-left: -4px;
+}
+/* line 11, ../scss/components/_categories-list.scss */
 .categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels {
   display: flex;
   flex-direction: column;
 }
-/* line 12, ../scss/components/_categories-list.scss */
+/* line 14, ../scss/components/_categories-list.scss */
+.categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label {
+  padding: 0;
+  max-width: 188px;
+  height: fit-content;
+}
+/* line 18, ../scss/components/_categories-list.scss */
 .categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label .mat-tab-label-content {
   text-align: left;
   border: 1px solid #E9ECEF;
   background: transparent;
-  color: #3B5875;
+  color: #214970;
   cursor: pointer;
   font-size: 14px;
+  font-family: "brandon-grotesque", sans-serif;
   padding: 8px 36px 8px 8px;
   text-decoration: none;
-  margin-bottom: 8px;
+  margin-bottom: 3px;
   width: 200px;
 }
-/* line 23, ../scss/components/_categories-list.scss */
+/* line 30, ../scss/components/_categories-list.scss */
 .categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label .mat-tab-label-content:hover {
   background: #3B5875;
   color: white;
   transition: 1s;
 }
-/* line 30, ../scss/components/_categories-list.scss */
+/* line 37, ../scss/components/_categories-list.scss */
 .categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-tab-labels .mat-tab-label.mat-tab-label-active .mat-tab-label-content {
   background: #3B5875;
   color: white;
   transition: 1s;
 }
-/* line 38, ../scss/components/_categories-list.scss */
+/* line 45, ../scss/components/_categories-list.scss */
 .categories-container .categories .mat-primary .mat-tab-header .mat-tab-list .mat-ink-bar {
   visibility: hidden !important;
+}
+
+@media (max-width: 765px) {
+  /* line 59, ../scss/components/_categories-list.scss */
+  .categories-container .categories-mobile .mat-primary .mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
+    display: none;
+  }
+  /* line 63, ../scss/components/_categories-list.scss */
+  .categories-container .categories-mobile .mat-primary .mat-tab-header {
+    position: absolute;
+    top: 226px;
+    margin-left: 87px;
+    max-width: 75%;
+    border: 0px;
+  }
+  /* line 72, ../scss/components/_categories-list.scss */
+  .categories-container .categories-mobile .mat-primary .mat-tab-header .mat-tab-label-container .mat-tab-list .mat-tab-labels .mat-tab-label {
+    margin-top: -2px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #3B5875;
+    padding: 0 4px;
+  }
+  /* line 82, ../scss/components/_categories-list.scss */
+  .categories-container .categories-mobile .mat-primary .mat-tab-header .mat-tab-label-container .mat-tab-list .mat-ink-bar {
+    display: none !important;
+    visibility: hidden !important;
+  }
 }

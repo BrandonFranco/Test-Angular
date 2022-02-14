@@ -1,19 +1,22 @@
+@import './../../../assets/scss/config/variables';
+
+
 .category-post{
-    padding: 0px 16px;
+    padding-left: 8px; 
     padding-bottom: 0;
-    max-width: 692px;
+    max-width: 702px;
     width: 100%;
     border-bottom: 1px solid #E9ECEF;
     .image-post{
         img{
             max-width: 100%;
-            width: auto;
+            width: auto; 
         }
         .ref-image{
             align-items: center;
             background: #E53212;
             display: flex;
-            padding: 8px;
+            padding: 3px 9px;
             position: absolute;
             top: 0px;
             width: fit-content;
@@ -22,12 +25,12 @@
                 background-position: center;
                 background-size: contain;
                 display: block;
-                height: 14.4px;
+                height: 15.4px;
                 width: 16px;
             }
             p{
                 color: white;
-                font-size: 14px;
+                font-size: 13px;
                 margin: 0;
                 padding-left: 12px;
             }
@@ -39,14 +42,14 @@
             display: block;
             position: absolute;
             top: 0px;
-            right: 16px;
+            right: 2px;
             height: 32px;
             width: 32px;
         }
         .info-post{
             display: flex;
             position: absolute;
-            top: 236px;
+            top: 267px;
             .category{
                 background: #05111DB2;
                 opacity: 70%;
@@ -75,15 +78,19 @@
     .text-post{
         .title-post{
             color: black;
-            font-size: 32px;
+            font-size: 35px;
             font-weight: 700;
+            letter-spacing: 0.9px;
+            line-height: 38px;
             margin-bottom: 16px;
-            margin-top: 16px;
+            margin-top: 9px;
         }
         .descriptiion-post{
             font-size: 24px;
+            letter-spacing: 0.7px;
             font-weight: 300;
-            margin-bottom: 0;
+            margin-bottom: 18px;
+            line-height: 32px;
         }
     }
     .data-post{
@@ -104,5 +111,46 @@
 @media (max-width: 768px){
     .category-post{
         padding: 0;
+        .image-post{
+            img{
+                height: 172px;
+            }
+            .mic-bottom{
+                right: 0;
+            }
+            .info-post{
+                top: 140px;
+                .category{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                .sub-category{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .text-post{
+            .title-post{
+                padding: 9px 19px;
+                font-size: 26px;
+                letter-spacing: 0.8px;
+                line-height: 32px;
+                margin-bottom: 0px;
+            }
+            .descriptiion-post{
+                padding: 0 20px;
+                line-height: 22px;
+                letter-spacing: 0.9px;
+                font-size: 13px;
+                margin-top: 5px;
+            }
+            .data-post{
+                padding: 0 20px;
+                border-bottom: 1px solid rgb(170, 170, 170);
+            }
+        }
     }
 }

@@ -5,8 +5,8 @@
     max-width: 100%;
     justify-content: center;
     .categories-container{
-        padding-left: 5%;
-        padding-top: 32px;
+        padding-left: 38px;
+        padding-top: 26px;
         .categories-mobile{
             display: none; 
         }
@@ -15,13 +15,16 @@
             flex-direction: column;
             width: auto;
             h2{
-                margin-left: 27px;
+                font-size: 14px;
+                margin-left: 1.5px;
+                position: absolute;
+                letter-spacing: 0.1px;
             }
             .a{
                 text-align: left;
                 border: 1px solid #E9ECEF;
                 background: transparent;
-                color: #3B5875;
+                color: color(primary, dark);
                 cursor: pointer;
                 font-size: 14px;
                 padding: 8px 36px 8px 8px;
@@ -29,7 +32,7 @@
                 margin-bottom: 8px;
                 width: 200px;
                 &:hover{
-                    background: #3B5875;
+                    background: color(primary, dark);
                     color: white;
                     transition: 1s;
                 }
@@ -51,6 +54,9 @@
                 display: block;
                 h2{
                     padding: 15px 9px;
+                    font-size: 12px;
+                    line-height: 19px;
+                    letter-spacing: 0.15px;
                 }
                 .slide{
                     font-family: $font-primary;

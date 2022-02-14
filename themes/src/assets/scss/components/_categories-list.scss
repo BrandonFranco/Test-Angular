@@ -1,24 +1,31 @@
 .categories-container{
     .categories{
-        .mat-primary{
+        .mat-primary{ 
             display: flex;
             flex-direction: row;
             .mat-tab-header{
+                padding-top: 31px;
                 .mat-tab-list{
+                    margin-right: 11px;
+                    margin-left: -4px;                
                     .mat-tab-labels{
                         display: flex;
                         flex-direction: column;
                         .mat-tab-label{
+                            padding: 0;
+                            max-width: 188px;
+                            height: fit-content;
                             .mat-tab-label-content{
                                 text-align: left;
                                 border: 1px solid #E9ECEF;
                                 background: transparent;
-                                color: #3B5875;
+                                color: #214970;
                                 cursor: pointer;
                                 font-size: 14px;
+                                font-family: $font-primary;
                                 padding: 8px 36px 8px 8px;
                                 text-decoration: none;
-                                margin-bottom: 8px;
+                                margin-bottom: 3px;
                                 width: 200px;
                                 &:hover{
                                     background: #3B5875;
@@ -37,6 +44,46 @@
                     }
                     .mat-ink-bar{
                         visibility: hidden !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 765px){
+    .categories-container{
+        .categories-mobile{
+            .mat-primary{
+                .mat-tab-header-pagination-controls-enabled{
+                    .mat-tab-header-pagination{
+                        display: none;
+                    }
+                }
+                .mat-tab-header{
+                    position: absolute;
+                    top: 226px;
+                    margin-left: 87px;
+                    max-width: 75%;
+                    border: 0px;
+                    .mat-tab-label-container{
+                        .mat-tab-list{
+                            .mat-tab-labels{
+                                .mat-tab-label{
+                                    margin-top: -2px;
+                                    font-family: $font-primary;
+                                    font-size: 10px;
+                                    line-height: 14px;
+                                    text-transform: uppercase;
+                                    color: #3B5875;
+                                    padding: 0 4px;
+                                }
+                            }
+                            .mat-ink-bar{
+                                display: none !important;
+                                visibility: hidden !important;
+                            }
+                        }
                     }
                 }
             }

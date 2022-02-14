@@ -26,14 +26,32 @@
           </mat-tab>
         </mat-tab-group>
         </div>
-        <ngx-slick-carousel class="carousel categories-mobile" 
-                        #slickModal="slick-carousel" 
-                        [config]="slideConfig" 
-                        (init)="slickInit($event)"
-                        (beforeChange)="beforeChange($event)">
+        <div class="categories-mobile">
             <h2 class="categories-title">CATEGORÍAS</h2>
-            <div ngxSlickItem *ngFor="let div of fillerNav" class="slide">{{div.name}}</div>
-        </ngx-slick-carousel>
+            <mat-tab-group class="mat-tab-group" mat-align-tabs="left">
+              <mat-tab class="a" label="Mercadeo automotriz"> 
+                <app-mercadeo class="app-manufactura"></app-mercadeo>
+              </mat-tab>
+              <mat-tab class="a" label="Manufactura"> 
+                <app-manufactura class="app-manufactura"></app-manufactura>
+              </mat-tab>
+              <mat-tab class="a" label="Tecnologia de procesos"> 
+                <app-tecnologia class="app-manufactura"></app-tecnologia>
+              </mat-tab>
+              <mat-tab class="a" label="Seguridad industrial"> 
+                <app-seguridad class="app-manufactura"></app-seguridad>
+              </mat-tab>
+              <mat-tab class="a" label="Manejo de materiales"> 
+                <app-materiales class="app-manufactura"></app-materiales>
+              </mat-tab>
+              <mat-tab class="a" label="Sostenibilidad"> 
+                <app-sostenibilidad class="app-manufactura"></app-sostenibilidad>
+              </mat-tab>
+              <mat-tab class="a" label="Robótica"> 
+                <app-robotica class="app-manufactura"></app-robotica>
+              </mat-tab>
+            </mat-tab-group>
+        </div>
     </nav>
     <div>
         <app-articulos></app-articulos>

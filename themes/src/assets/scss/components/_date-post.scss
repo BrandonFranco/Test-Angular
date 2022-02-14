@@ -1,13 +1,14 @@
 .data-post{
     display: flex;
     align-items: center;
+    margin-top: 5px;
     .autor{
         color: #FF7158;
         font-size: 12px;
     }
     .date{
         color: #6D6D6D;
-        margin-left: 20px;
+        margin-left: 9px;
         font-size: 12px;
     }
 }

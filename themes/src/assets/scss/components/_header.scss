@@ -17,9 +17,17 @@
         max-height: 58px;
         background: white;
         padding: 1rem 2rem;
+        z-index: 2;
         button{
             mat-icon{
                 color: color(primary, light);
+                font-size: 29px;
+                margin-top: -5px;
+                margin-left: -17px;
+            }
+            .mat-button-wrapper{
+                font-size: 4px;
+                margin-right: 10px;
             }
         }
         .search{
@@ -32,11 +40,13 @@
         }
         .adc-btn{
             border-right: 1px solid #E9ECEF;
+            margin-top: -5px;
+            margin-right: -10px;
             .button{
                 font-family: $font-primary;
                 font-size: 12px;
                 font-weight:bold;
-                padding: 8px 10px;
+                padding: 7px 10px;
                 background: color(primary, light);
                 border-radius: 0px;
                 cursor: pointer;
@@ -48,9 +58,9 @@
             }
         }
         .icon-search{
-            font-size: 20px;
+            font-size: 22px;
             color: color(primary, light);
-            margin-left: 27px;
+            margin-left: 1px; 
         }
     }
     .sidenav-container {
@@ -67,10 +77,15 @@
                 color: color(primary, light);
             }
         }
+        &.mat-drawer-container-has-open{
+            z-index: 2;
+            transition-duration: 400ms;
+        }
     }
     .logo-mobile{
         display: block;
-        height: 25px
+        height: 34px;
+        margin-left: -40px;
     }
     .logo-desktop{
         display: none;
@@ -93,7 +108,7 @@
     .container-nav{
         .toolbar{
             padding: 0px 7.2%;
-            margin-top: 8px;
+            margin-top: 5px;
             border-top: none;
             .toggle-button{
                 display: none; 
@@ -111,12 +126,13 @@
                 display: inline;
                 padding-left: 17px;
                 margin-top: 4px;
+                width: 245px;
             }
             .nav-desktop{
                 display: flex;
                 width: 100%;
                 margin-left: 15.04%;
-                height: 58px;
+                height: 55px;
                 a{
                     font-family: $font-primary;
                     font-size: 12px ;
@@ -135,12 +151,12 @@
                 }
             }
             .adc-btn{
-                margin-right: -3px;
+                margin-right: 21px;
             }
             .icon-search{
-                border-left: 1px solid color(controls, dark);
-                padding-left: 18px;
-                padding-right: 21px;
+                border-left: 1px solid #E9ECEF;
+                padding-left: 22px;
+                padding-right: 16px;
             }
         }
     }
