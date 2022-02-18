@@ -33,6 +33,7 @@ import { SostenibilidadComponent } from './categories-list/sostenibilidad/sosten
 import { TecnologiaComponent } from './categories-list/tecnologia/tecnologia.component';
 import { ArticulosComponent } from './components/articulos/articulos.component';
 import { MasLeidoComponent } from './components/mas-leido/mas-leido.component';
+import { PreviousEditionsComponent } from './components/previous-editions/previous-editions.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { MasLeidoComponent } from './components/mas-leido/mas-leido.component';
     MercadeoComponent,
     ArticulosComponent,
     MasLeidoComponent,
+    PreviousEditionsComponent,
 
   ],
   imports: [

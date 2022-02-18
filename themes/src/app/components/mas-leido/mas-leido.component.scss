@@ -1,10 +1,10 @@
 @import './../../../assets/scss/config/variables';
 
 .mas-leido{
-    margin-top: 54px;
-    padding: 56px;
+    margin-top: 36px;
+    padding: 57px;
     background: color(controls, dark);
-    h2{
+    &__title{
         line-height: 40px;
         margin-left: 63px;
         font-size: 18px;
@@ -17,7 +17,7 @@
         display: flex; 
         justify-content: center;
         .article{
-            .article-img-mobile {
+            &__img-mobile {
                 display: none;
             }
             max-width: 288px;
@@ -25,12 +25,12 @@
             &:last-child{
                 margin-right: 0px;
             }
-            .article-title{
+            &__title{
                 margin-top: 17px;
                 letter-spacing: 0.25px;
                 line-height: 23px;
             }
-            .article-text{
+            &__text{
                 margin-top: 17px;
                 letter-spacing: 0.29px;
                 font-size: 14px;
@@ -43,8 +43,8 @@
 @media (max-width:380px){
     .mas-leido{
         padding: 21px;
-        margin-top: -4px;
-        h2{
+        margin-top: 9px;
+        &__title{
             line-height: 40px;
             margin-left: 0px;
             font-size: 18px;
@@ -52,18 +52,19 @@
             margin-bottom: 18px;
         }
         .articles{
+            display: flex;
             flex-direction: column;
             .article{
                 max-width: none;
                 margin: 0;
                 margin-bottom: 25px;
-                .article-img-mobile{
+                &__img-mobile{
                     display: block;
                 }
-                .article-img{
+                &__img{
                     display: none;
                 }
-                .article-title{
+                &__title{
                     margin-left: 0px;
                     font-size: 18px;
                     margin-top: 15px;

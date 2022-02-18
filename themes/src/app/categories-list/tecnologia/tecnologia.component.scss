@@ -8,11 +8,11 @@
     width: 100%;
     border-bottom: 1px solid #E9ECEF;
     .image-post{
-        img{
+        &__img{
             max-width: 100%;
             width: auto; 
         }
-        .ref-image{
+        &__ref-image{
             align-items: center;
             background: #E53212;
             display: flex;
@@ -35,7 +35,7 @@
                 padding-left: 12px;
             }
         }
-        .mic-bottom{
+        &__mic-bottom{
             background: url('https://i.postimg.cc/3N4zLsDN/Pordcast-content-Tag.png');
             background-position: center;
             background-size: contain;
@@ -46,7 +46,7 @@
             height: 32px;
             width: 32px;
         }
-        .info-post{
+        &__info-post{
             display: flex;
             position: absolute;
             top: 267px;
@@ -76,7 +76,7 @@
         }
     }
     .text-post{
-        .title-post{
+        &__title{
             color: black;
             font-size: 35px;
             font-weight: 700;
@@ -85,25 +85,25 @@
             margin-bottom: 16px;
             margin-top: 9px;
         }
-        .descriptiion-post{
+        &__descriptiion{
             font-size: 24px;
             letter-spacing: 0.7px;
             font-weight: 300;
             margin-bottom: 18px;
             line-height: 32px;
         }
-    }
-    .data-post{
-        display: flex;
-        align-items: center;
-        .autor{
-            color: #FF7158;
-            font-size: 14px;
-        }
-        .date{
-            color: #6D6D6D;
-            margin-left: 20px;
-            font-size: 14px;
+        &__data-post{
+            display: flex;
+            align-items: center;
+            .autor{
+                color: #FF7158;
+                font-size: 14px;
+            }
+            .date{
+                color: #6D6D6D;
+                margin-left: 20px;
+                font-size: 14px;
+            }
         }
     }
 }
@@ -112,13 +112,13 @@
     .category-post{
         padding: 0;
         .image-post{
-            img{
+            &__img{
                 height: 172px;
             }
-            .mic-bottom{
+            &__mic-bottom{
                 right: 0;
             }
-            .info-post{
+            &__info-post{
                 top: 140px;
                 .category{
                     p{
@@ -133,21 +133,21 @@
             }
         }
         .text-post{
-            .title-post{
+            &__title{
                 padding: 9px 19px;
                 font-size: 26px;
                 letter-spacing: 0.8px;
                 line-height: 32px;
                 margin-bottom: 0px;
             }
-            .descriptiion-post{
+            &__descriptiion{
                 padding: 0 20px;
                 line-height: 22px;
                 letter-spacing: 0.9px;
                 font-size: 13px;
                 margin-top: 5px;
             }
-            .data-post{
+            &__data-post{
                 padding: 0 20px;
                 border-bottom: 1px solid rgb(170, 170, 170);
             }

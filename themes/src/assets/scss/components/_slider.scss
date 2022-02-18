@@ -11,3 +11,20 @@
         }
     }
 }
+.editions-mobile{
+    .slick-list{
+        overflow: hidden; 
+        padding-left: 30px;        
+        .slick-track{
+            display: flex;
+            align-items: center;
+            .slick-slide{
+                margin-right: 54px;
+                margin-left: -16px;
+            }
+        }
+    }
+    .slick-arrow{
+        display: none !important;
+    }
+}

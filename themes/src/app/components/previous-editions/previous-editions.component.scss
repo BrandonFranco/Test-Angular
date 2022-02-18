@@ -1,0 +1,77 @@
+@import './../../../assets/scss/config/variables';
+
+.section-content{
+    margin-top: 67px;
+    padding-left: 119px;
+    .title-section{
+        font-size: 15px;
+        padding-top: 3px;
+        letter-spacing: -0.1px;
+        margin-bottom: 23px;
+    }
+    .editions-container{
+        display: flex;
+        .edition{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin-right: 17px;
+            &__title{
+                text-decoration: none;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: $font-secoundary;
+                line-height: 23px;
+                position: absolute;
+                top: 228px;
+                font-weight: 300;
+                font-size: 14px;
+                color: white;
+                max-width: 230px;
+                strong{
+                    font-weight: 600;
+                    font-size: 22px;
+                    &.stronger{
+                        font-weight: bold;
+                        font-size: 42px;
+                    }
+                }
+            }
+        }
+    }
+    .editions-mobile{
+        display: none;
+    }
+    .more-btn{
+        display: flex;
+        justify-content: center;
+        max-width: 1205px;
+        .btn{
+            background: grey;
+            border-radius: 9px;
+            color: white;
+            font-size: 12px;
+            margin-top: 46px;
+            margin-left: -2px;
+            padding: 6px 33px;
+
+        }
+    }
+}
+
+
+@media (max-width:638px){
+    .section-content{
+        margin-top: -1px;
+        padding-left: 21px;
+        .title-section{
+            margin-bottom: 24px;
+        }
+        .editions-mobile{
+            display: block;
+        }
+        .editions-container{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<div class="section-content">
+    <h2 class="title-section">EDICIONES ANTERIORES</h2>
+    <div class="editions-container">
+        <div class="edition">
+            <img class="edition__img" src="./../../../assets/img/edition1.png" alt="edicion anterior"  width="288" height="419">
+            <a class="edition__title" href="/">los faros de la <strong>transformación</strong><strong class="stronger"> digital</strong> industrial</a>
+        </div>
+        <div class="edition">
+            <img class="edition__img" src="./../../../assets/img/edition2.png" alt="edicion anterior" width="288" height="419">
+            <a class="edition__title" href="/">herramientas para la <strong>nueva normalidad</strong><strong class="stronger"> industrial</strong></a>
+        </div>
+        <div class="edition">
+            <img class="edition__img" src="./../../../assets/img/edition3.png" alt="edicion anterior" width="288" height="419">
+            <a class="edition__title" href="/">reseta para la <strong>resiliencia</strong><strong class="stronger"> empresarial</strong></a>
+        </div>
+        <div class="edition">
+            <img class="edition__img" src="./../../../assets/img/edition4.png" alt="edicion anterior" width="288" height="419">
+            <a class="edition__title" href="/">coronavirus <br> <strong>la industria vs</strong> <br> <strong class="stronger"> la pandemia</strong></a>
+        </div>
+    </div>
+    <ngx-slick-carousel class="editions-mobile" 
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig" 
+                        (init)="slickInit($event)">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <img src="{{ slide.img }}" href="/" width="288px" height="419px">
+        </div>
+    </ngx-slick-carousel>
+    <div class="more-btn">
+        <a href="/" class="btn">VER MÁS EDICIONES</a>
+    </div>
+</div>

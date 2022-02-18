@@ -205,6 +205,132 @@ hr {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Thin.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-SemiBoldItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-BlackItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-BoldItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-ThinItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Black.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-ExtraLightItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Italic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-LightItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-MediumItalic.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 /* line 2, ../scss/base/_body.scss */
 *,
 *:before, *:after {
@@ -1376,18 +1502,79 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   background: #E9ECEF;
 }
 
+/* line 15, ../scss/components/_slider.scss */
+.editions-mobile .slick-list {
+  overflow: hidden;
+  padding-left: 30px;
+}
+/* line 18, ../scss/components/_slider.scss */
+.editions-mobile .slick-list .slick-track {
+  display: flex;
+  align-items: center;
+}
+/* line 21, ../scss/components/_slider.scss */
+.editions-mobile .slick-list .slick-track .slick-slide {
+  margin-right: 54px;
+  margin-left: -16px;
+}
+/* line 27, ../scss/components/_slider.scss */
+.editions-mobile .slick-arrow {
+  display: none !important;
+}
+
 /* line 1, ../scss/components/_date-post.scss */
+.articulos-destacados {
+  margin-left: 17px;
+  margin-top: 32px;
+  margin-right: 45px;
+  margin-bottom: 53px;
+}
+/* line 6, ../scss/components/_date-post.scss */
+.articulos-destacados .section-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  margin-top: -8px;
+}
+/* line 13, ../scss/components/_date-post.scss */
+.articulos-destacados .articles .article {
+  align-items: center;
+  display: flex;
+  margin-bottom: 16px;
+  max-width: 281px;
+  width: auto;
+}
+/* line 19, ../scss/components/_date-post.scss */
+.articulos-destacados .articles .article__img {
+  height: 85px;
+  width: 80px;
+}
+/* line 23, ../scss/components/_date-post.scss */
+.articulos-destacados .articles .article__information {
+  padding-left: 15px;
+  height: 78px;
+}
+/* line 26, ../scss/components/_date-post.scss */
+.articulos-destacados .articles .article__information__title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  margin-bottom: 7px;
+}
+
+/* line 37, ../scss/components/_date-post.scss */
 .data-post {
   display: flex;
   align-items: center;
   margin-top: 5px;
 }
-/* line 5, ../scss/components/_date-post.scss */
+/* line 41, ../scss/components/_date-post.scss */
 .data-post .autor {
   color: #FF7158;
   font-size: 12px;
 }
-/* line 9, ../scss/components/_date-post.scss */
+/* line 45, ../scss/components/_date-post.scss */
 .data-post .date {
   color: #6D6D6D;
   margin-left: 9px;

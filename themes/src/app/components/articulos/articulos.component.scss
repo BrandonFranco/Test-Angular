@@ -5,7 +5,7 @@
     margin-top: 32px;
     margin-right: 45px;
     margin-bottom: 53px;
-    .article-title{
+    .section-title{
         font-size: 14px;
         font-weight: 400;
         margin-bottom: 24px;
@@ -18,19 +18,51 @@
             margin-bottom: 16px;
             max-width: 281px;
             width: auto;
-            .img{
+            &__img{
                 height: 85px;
                 width: 80px;    
             }
-            .information{
+            &__information{
                 padding-left: 15px;
                 height: 78px;
-                .title{
+                &__title{
                     font-size: 13px;
                     font-weight: 600;
                     letter-spacing: 0.2px;
                     line-height: 18px;
                     margin-bottom:7px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 680px){
+    .articulos-destacados{
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-right: 2px;
+        margin-bottom: 49px;
+        .articles{
+            .article{
+                align-items: center;
+                display: flex;
+                margin-bottom: 15px;
+                width: auto;
+                &__img{
+                    height: 80px;
+                    width: 80px;   
+                }
+                &__information{
+                    padding-left: 15px;
+                    height: 78px;
+                    &__title{
+                        font-size: 13px;
+                        font-weight: 600;
+                        letter-spacing: 0.2px;
+                        line-height: 19px;
+                        margin-bottom:7px;
+                    }
                 }
             }
         }

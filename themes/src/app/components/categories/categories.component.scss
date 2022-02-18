@@ -14,7 +14,7 @@
             display: flex;
             flex-direction: column;
             width: auto;
-            h2{
+            &__title{
                 font-size: 14px;
                 margin-left: 1.5px;
                 position: absolute;
@@ -52,7 +52,7 @@
             padding:0;
             .categories-mobile{
                 display: block;
-                h2{
+                &__title{
                     padding: 15px 9px;
                     font-size: 12px;
                     line-height: 19px;
