@@ -1,0 +1,19 @@
+.interest-categories{
+    padding: 64px 120px;
+    .container{
+        display: flex;
+        .left-section{
+            display: flex;
+            flex-direction: column;
+            .categories{
+                .categorie{
+                    display: flex;
+                }
+            }
+        }
+        .right-section{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

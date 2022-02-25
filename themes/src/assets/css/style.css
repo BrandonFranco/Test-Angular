@@ -364,6 +364,11 @@ p {
   min-height: 100vh;
 }
 
+/* line 30, ../scss/base/_body.scss */
+.secount-block .title {
+  margin-top: 35px !important;
+}
+
 /* line 1, ../scss/base/_links.scss */
 a, button {
   color: #6D6D6D;
@@ -1515,7 +1520,7 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 /* line 21, ../scss/components/_slider.scss */
 .editions-mobile .slick-list .slick-track .slick-slide {
   margin-right: 54px;
-  margin-left: -16px;
+  margin-left: -10px;
 }
 /* line 27, ../scss/components/_slider.scss */
 .editions-mobile .slick-arrow {

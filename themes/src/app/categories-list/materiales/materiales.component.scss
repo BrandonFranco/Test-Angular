@@ -75,6 +75,19 @@
             }
         }
     }
+    .patrocinador{
+        background: #FFC00033;
+        border-left: 6px solid #FFC000;
+        color: #002C42;
+        font-weight: 600;
+        font-size: 13px;
+        font-family: $font-primary;
+        padding-left: 7px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: fit-content;
+    }
     .text-post{
         &__title{
             color: black;

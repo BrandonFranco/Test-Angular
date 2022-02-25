@@ -34,6 +34,9 @@ import { TecnologiaComponent } from './categories-list/tecnologia/tecnologia.com
 import { ArticulosComponent } from './components/articulos/articulos.component';
 import { MasLeidoComponent } from './components/mas-leido/mas-leido.component';
 import { PreviousEditionsComponent } from './components/previous-editions/previous-editions.component';
+import { BlockNewNormalComponent } from './components/block-new-normal/block-new-normal.component';
+import { BlockNewNormalSecoundaryComponent } from './components/block-new-normal-secoundary/block-new-normal-secoundary.component';
+import { InterestCategoriesComponent } from './components/interest-categories/interest-categories.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +61,9 @@ import { PreviousEditionsComponent } from './components/previous-editions/previo
     ArticulosComponent,
     MasLeidoComponent,
     PreviousEditionsComponent,
+    BlockNewNormalComponent,
+    BlockNewNormalSecoundaryComponent,
+    InterestCategoriesComponent,
 
   ],
   imports: [
