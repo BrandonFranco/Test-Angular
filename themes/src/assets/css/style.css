@@ -724,7 +724,7 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 @media (min-width: 960px) {
   /* line 1, ../scss/base/_grid.scss */
   .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
@@ -1404,50 +1404,41 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
 }
 /* line 85, ../scss/components/_header.scss */
 .container-nav .logo-mobile {
-  display: block;
   height: 34px;
   margin-left: -40px;
 }
 /* line 90, ../scss/components/_header.scss */
-.container-nav .logo-desktop {
-  display: none;
-}
-/* line 94, ../scss/components/_header.scss */
 .container-nav.container-nav-mobile .toolbar {
   position: fixed;
   z-index: 2;
 }
-/* line 97, ../scss/components/_header.scss */
+/* line 93, ../scss/components/_header.scss */
 .container-nav.container-nav-mobile .toolbar .example-app-name {
   margin-left: 8px;
 }
-/* line 101, ../scss/components/_header.scss */
+/* line 97, ../scss/components/_header.scss */
 .container-nav.container-nav-mobile .sidenav-container {
   flex: 1 0 auto;
 }
 
 @media (min-width: 769px) {
-  /* line 109, ../scss/components/_header.scss */
+  /* line 105, ../scss/components/_header.scss */
   .container-nav .toolbar {
     padding: 0px 7.2%;
     margin-top: 5px;
     border-top: none;
   }
-  /* line 113, ../scss/components/_header.scss */
+  /* line 109, ../scss/components/_header.scss */
   .container-nav .toolbar .toggle-button {
     display: none;
   }
-  /* line 116, ../scss/components/_header.scss */
+  /* line 112, ../scss/components/_header.scss */
   .container-nav .toolbar .search {
     background: transparent;
     border: none;
     padding: 0;
   }
-  /* line 121, ../scss/components/_header.scss */
-  .container-nav .toolbar .logo-mobile {
-    display: none;
-  }
-  /* line 124, ../scss/components/_header.scss */
+  /* line 117, ../scss/components/_header.scss */
   .container-nav .toolbar .logo-desktop {
     height: 27.6px;
     display: inline;
@@ -1455,14 +1446,14 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
     margin-top: 4px;
     width: 245px;
   }
-  /* line 131, ../scss/components/_header.scss */
+  /* line 124, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop {
     display: flex;
     width: 100%;
     margin-left: 15.04%;
     height: 55px;
   }
-  /* line 136, ../scss/components/_header.scss */
+  /* line 129, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop a {
     font-family: "brandon-grotesque", sans-serif;
     font-size: 12px;
@@ -1473,19 +1464,19 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
     text-decoration: none;
     color: #005285;
   }
-  /* line 145, ../scss/components/_header.scss */
+  /* line 138, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop a.active {
     border-bottom: 2px solid #D42E10;
   }
-  /* line 148, ../scss/components/_header.scss */
+  /* line 141, ../scss/components/_header.scss */
   .container-nav .toolbar .nav-desktop a:hover {
     border-bottom: 2px solid #D42E10;
   }
-  /* line 153, ../scss/components/_header.scss */
+  /* line 146, ../scss/components/_header.scss */
   .container-nav .toolbar .adc-btn {
     margin-right: 21px;
   }
-  /* line 156, ../scss/components/_header.scss */
+  /* line 149, ../scss/components/_header.scss */
   .container-nav .toolbar .icon-search {
     border-left: 1px solid #E9ECEF;
     padding-left: 22px;

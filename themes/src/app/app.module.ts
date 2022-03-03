@@ -37,6 +37,8 @@ import { PreviousEditionsComponent } from './components/previous-editions/previo
 import { BlockNewNormalComponent } from './components/block-new-normal/block-new-normal.component';
 import { BlockNewNormalSecoundaryComponent } from './components/block-new-normal-secoundary/block-new-normal-secoundary.component';
 import { InterestCategoriesComponent } from './components/interest-categories/interest-categories.component';
+import { PublicityComponent } from './components/publicity/publicity.component';
+import { ArticuloComponent } from './components/articulo/articulo.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +66,8 @@ import { InterestCategoriesComponent } from './components/interest-categories/in
     BlockNewNormalComponent,
     BlockNewNormalSecoundaryComponent,
     InterestCategoriesComponent,
+    PublicityComponent,
+    ArticuloComponent,
 
   ],
   imports: [

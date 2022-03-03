@@ -83,12 +83,8 @@
         }
     }
     .logo-mobile{
-        display: block;
         height: 34px;
         margin-left: -40px;
-    }
-    .logo-desktop{
-        display: none;
     }
     &.container-nav-mobile{
         .toolbar {
@@ -117,9 +113,6 @@
                 background: transparent;
                 border: none;
                 padding: 0;
-            }
-            .logo-mobile{
-                display: none; 
             }
             .logo-desktop{
                 height: 27.6px;

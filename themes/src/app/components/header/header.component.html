@@ -2,12 +2,14 @@
   <div class="container-nav" [class.container-nav-mobile]="mobileQuery.matches" *ngIf="shouldRun">
     <mat-toolbar class="toolbar" color="primary">
       <button class="toggle-button" mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
-      <img class="logo-mobile" src="./../../../assets/img/Logo RI - Mobile.png" alt="Logo de reportero industrial" width="97" height="30">
-      <img class="logo-desktop" src="./../../../assets/img/Logo RI.png" alt="Logo de reportero industrial" width="245" height="28">
+      <picture>
+        <source class="logo-desktop" srcset="./../../../assets/img/LogoRI.png" media="(min-width: 600px)" alt="Logo de reportero industrial" width="245" height="28">
+        <img class="logo-mobile" src="./../../../assets/img/Logo RI - Mobile.png" alt="Logo de reportero industrial" width="97" height="30">
+      </picture>
       <nav class="nav-desktop">
         <a mat-list-item [routerLink]="nav.route" *ngFor="let nav of fillerNav" routerLinkActive="active">{{nav.name}}</a>
       </nav>
-      <div class="adc-btn"> 
+      <div class="adc-btn">  
         <a class="button">ACCEDER</a>
       </div>
       <button class="search">

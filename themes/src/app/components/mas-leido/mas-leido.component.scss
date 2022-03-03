@@ -1,10 +1,10 @@
 @import './../../../assets/scss/config/variables';
 
-.mas-leido{
+.container{
     margin-top: 35px;
     padding: 57px;
     background: color(controls, dark);
-    &__title{
+    .mas-leido__title{
         line-height: 40px;
         margin-left: 63px;
         font-size: 18px;
@@ -17,9 +17,6 @@
         display: flex; 
         justify-content: center;
         .article{
-            &__img-mobile {
-                display: none;
-            }
             max-width: 288px;
             margin-right: 16px;
             &:last-child{
@@ -40,11 +37,11 @@
     }
 }
 
-@media (max-width:380px){
-    .mas-leido{
+@media (max-width:680px){
+    .container{
         padding: 21px;
         margin-top: 9px;
-        &__title{
+        .mas-leido__title{
             line-height: 40px;
             margin-left: 0px;
             font-size: 18px;
@@ -58,12 +55,6 @@
                 max-width: none;
                 margin: 0;
                 margin-bottom: 25px;
-                &__img-mobile{
-                    display: block;
-                }
-                &__img{
-                    display: none;
-                }
                 &__title{
                     margin-left: 0px;
                     font-size: 18px;
